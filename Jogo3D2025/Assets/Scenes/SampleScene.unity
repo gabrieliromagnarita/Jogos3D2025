@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
-  RotSpeed: 10
-  Gravity: 30
+  RotSpeed: 100
+  Gravity: 200
 --- !u!95 &1634462510
 Animator:
   serializedVersion: 7
@@ -509,7 +509,7 @@ Animator:
   m_GameObject: {fileID: 1634462508}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c25a3c5be7c91a74eb408a2d576239b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
